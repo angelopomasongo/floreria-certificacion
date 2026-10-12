@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Encabezado */
+.encabezado-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6a8c5; /* Color rosa */
+    padding: 10px 40px;
+}
+
+.logo {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.navegacion-superior {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.enlace-menu {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.boton-sesion {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Submenú de Categorías */
+.barra-categorias {
+    background-color: #dcdcdc; /* Gris claro */
+    padding: 10px 0;
+}
+
+.lista-categorias {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-weight: bold;
+}
+
+/* Contenido Principal */
+.contenido-pagina {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Sección Flor del Mes */
+.seccion-flor-mes {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titulo-seccion {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Cajas de imágenes modificadas */
+.caja-imagen-grande {
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+/* Esto hace que la imagen grande llene la caja completa */
+.caja-imagen-grande img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Sección Resultados */
+.cabecera-resultados {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.texto-resultados {
+    font-size: 14px;
+}
+
+.enlace-ver-mas {
+    color: #4a90e2; /* Azul para el enlace */
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.contenedor-productos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tarjeta-producto {
+    width: 30%;
+    background-color: #e5e5e5;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Esto evita que el padding rompa el ancho */
+}
+
+/* Cajas de imágenes pequeñas modificadas */
+.caja-imagen-pequena {
+    width: 100%;
+    height: 120px;
+    border: 2px solid black;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+/* Esto hace que las imágenes pequeñas llenen su caja */
+.caja-imagen-pequena img {
+    width: 100%;
+    height: 100%;
+}
+
+.informacion-producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nombre-flor {
+    margin: 0;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.precio-flor {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #d12c6a; /* Rosa oscuro */
+    font-weight: bold;
+}
+
+.boton-comprar {
+    background-color: #c97a9f; /* Botón rosa */
+    color: white;
+    border: 2px solid black;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}

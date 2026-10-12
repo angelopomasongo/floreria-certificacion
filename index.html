@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Angelo Pomasongo">
+    <title>FlorManía</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+    <!-- Encabezado Principal -->
+    <div class="encabezado-principal">
+        <h1 class="logo">FlorManía</h1>
+        <div class="navegacion-superior">
+            <a href="#" id="enlace-envia" class="enlace-menu">Envía Flores</a>
+            <a href="#" class="enlace-menu">Nosotros</a>
+            <button id="boton-iniciar-sesion" class="boton-sesion">Iniciar Sesión</button>
+        </div>
+    </div>
+
+    <!-- Submenú de Categorías -->
+    <div class="barra-categorias">
+        <div class="lista-categorias">
+            <a href="#">Girasoles</a>
+            <a href="#">Rosas</a>
+            <a href="#">Claveles</a>
+            <a href="#">Orquídeas</a>
+            <a href="#">Margaritas</a>
+        </div>
+    </div>
+
+    <!-- Contenido Principal -->
+    <div class="contenido-pagina">
+        
+        <!-- Sección: Flor del Mes -->
+        <div class="seccion-flor-mes">
+            <h2 class="titulo-seccion">Flor del Mes</h2>
+            <div class="caja-imagen-grande">
+                <!-- Aquí va la imagen principal -->
+                <img src="static/images/flor-del-mes.jpg" alt="Flor del Mes" >
+            </div>
+        </div>
+
+        <!-- Sección: Listado de Productos -->
+        <div class="seccion-resultados">
+            <div class="cabecera-resultados">
+                <p class="texto-resultados">Mostrando <strong>50 resultados</strong></p>
+                <a href="#" class="enlace-ver-mas">Ver más Flores</a>
+            </div>
+
+            <div class="contenedor-productos">
+                <!-- Producto 1 -->
+                <div class="tarjeta-producto">
+                    <div class="caja-imagen-pequena">
+                        <!-- Imagen del producto 1 -->
+                        <img src="static/images/ramo-de-rosas.jpg" alt="Ramo de Rosas">
+                    </div>
+                    <div class="informacion-producto">
+                        <div class="textos-producto">
+                            <h3 class="nombre-flor">Ramo de Rosas</h3>
+                            <p class="precio-flor">$40.00</p>
+                        </div>
+                        <button class="boton-comprar">Comprar</button>
+                    </div>
+                </div>
+
+                <!-- Producto 2 -->
+                <div class="tarjeta-producto">
+                    <div class="caja-imagen-pequena">
+                        <!-- Imagen del producto 2 -->
+                        <img src="static/images/bouquet-lirios.jpg" alt="Arreglo Tulipanes" >
+                    </div>
+                    <div class="informacion-producto">
+                        <div class="textos-producto">
+                            <h3 class="nombre-flor">Arreglo Tulipanes</h3>
+                            <p class="precio-flor">$50.00</p>
+                        </div>
+                        <button class="boton-comprar">Comprar</button>
+                    </div>
+                </div>
+
+                <!-- Producto 3 -->
+                <div class="tarjeta-producto">
+                    <div class="caja-imagen-pequena">
+                        <!-- Imagen del producto 3 -->
+                        <img src="static/images/bouquet-lirios.png" alt="Bouquet Lirios">
+                    </div>
+                    <div class="informacion-producto">
+                        <div class="textos-producto">
+                            <h3 class="nombre-flor">Bouquet Lirios</h3>
+                            <p class="precio-flor">$25.00</p>
+                        </div>
+                        <button class="boton-comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Vinculación del script -->
+    <script src="static/js/script.js"></script>
+</body>
+</html>
